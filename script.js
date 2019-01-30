@@ -5,17 +5,10 @@ const overlay = document.querySelector('.overlay');
 
 
 
-  overlay.style.width = window.innerWidth / 2 + "px";
-  overlay.style.height = window.innerHeight / 2 + "px";
-
-  overlay.style.top = (window.innerHeight - overlay.height) / 2 + 'px';
-  overlay.style.left = (window.innerWidth - overlay.width) / 2 + 'px';
 
 
-
-
-//////////////////////////////////////////////////////////////////////
 function makeTime() {
+
   const time = new Date();
   let hours = time.getHours();
   let minutes = time.getMinutes();
@@ -30,7 +23,7 @@ function makeTime() {
     seconds = '0' + seconds;
   }
 
-  clock.innerHTML = hours + ':' + minutes + ':' + seconds;
+  // clock.innerHTML = hours + ':' + minutes + ':' + seconds;
 
   if (seconds % 2 == 0){
     pic[random].style.transform = "rotateY(180deg)";

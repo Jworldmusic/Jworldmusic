@@ -6,7 +6,7 @@ html {
 }
 
 body {
-  background: black;
+  background: #01464B;
 }
 
 h1 {
@@ -14,7 +14,7 @@ h1 {
 }
 
 img {
-  width: 50px;
+  width: 70px;
 }
 
 a {
@@ -23,16 +23,9 @@ a {
 }
 
 .frame {
-  width: 80%;
-  margin: 0 auto;
-}
-
-.overlay {
-  background:gray;
-  position:absolute;
-  text-align: center;
-  font-size: 2rem;
-  z-index:3;
+  width:90vw;
+  margin:0 auto;
+  overflow: hidden;
 }
 
 .clock {
